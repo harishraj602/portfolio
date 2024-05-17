@@ -15,7 +15,7 @@ const Card = ({item}) => {
             }
          </div>
          <div className='card-btn'>
-            <button><a href="">Demo</a></button>
+            <button>Demo</button>
             <button><a href={item.github}>Git Hub</a></button>
          </div>
     </div>
