@@ -1,0 +1,39 @@
+.footer-container{
+    margin-top: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background:linear-gradient(to left,#007bff,whitesmoke);
+    padding: 20px;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    color:#ffffff;
+    justify-content: center;
+}
+.text h2{
+    font-size: 42px;
+}
+.text h3{
+    font-size: 32px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    color: white;
+}
+.link-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.link-container p{
+    font-size: 20px;
+}

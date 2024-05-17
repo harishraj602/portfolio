@@ -1,0 +1,8 @@
+.home-container{
+    background:linear-gradient(to right,#007bff,whitesmoke);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: auto;
+    
+}

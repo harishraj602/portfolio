@@ -1,0 +1,61 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    gap: 20px;
+    background:linear-gradient(to bottom,#007bff,#a9d4ff,#007bff);
+    &:hover{
+        transform: scale(1.01);
+    }
+}
+.card-container img{
+    width: 300px;
+    height: 200px;
+    /* border-radius: 20px; */
+    /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 6px, rgba(0, 0, 0, 0.3) 0px 3px 6px;
+}
+.card-container h2{
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card-container p{
+    color: white;
+    font-size: 16px;
+}
+.tech{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tech p,.card-btn button{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+.card-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-btn button{
+     outline: none;
+     border: none;
+     font-weight: bold;
+     cursor: pointer;
+     &:hover{
+        transform: scale(1.05);
+     }
+}
+.card-btn button a{
+    text-decoration: none;
+    color:#007bff;
+}
